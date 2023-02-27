@@ -1,0 +1,354 @@
+* {
+
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "lato", sans-serif;
+    color: aliceblue;
+    padding: 0;
+
+}
+
+body {
+
+  background: black;
+  
+}
+
+.contenedor {
+
+  width: 100%;
+  background: black;
+  
+}
+
+
+nav {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.logo {
+
+  display: flex;
+  align-items: center;
+
+}
+
+.logo img {
+  
+  width: 10%;
+  
+}
+
+
+#nombre {
+
+  color: white;
+  font-size: 28px;
+  position: relative;
+  left: 2%;
+  margin-top: 2%;
+
+
+}
+
+#nombre span {
+
+  color: orange;
+
+}
+
+nav ul li {
+
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+
+}
+
+nav ul li a {
+
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+nav ul li a:hover {
+
+  color: orange;
+  text-decoration: underline 5px;
+
+}
+
+#btn button {
+
+  margin-left: 20px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: black;
+
+}
+
+#btn button a {
+
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: .4;
+
+}
+
+
+#btn button:hover {
+
+  transform: scale(1.1);
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: orange;
+
+
+}
+
+
+/* zaens */
+
+.signupFrm {
+
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 90vh;
+    margin-top: -10%;
+
+  }
+
+  form {
+
+    background-color: black;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px black;
+
+  }
+  
+  .title {
+
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+
+  }
+
+  .nombre {
+
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+    margin-left: -40%;
+
+  }
+
+  .apellidos {  
+
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+    margin-top:-19.5% ;
+    margin-left:60% ;
+
+}
+
+.Email {
+
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+  margin-left: -40%;
+  margin-top:19.5 ;
+
+}
+
+.Confirmar {  
+
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+  margin-left: 60%;
+  margiN-top: -19.5%; 
+
+}
+
+.contraseña {
+
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+  margin-left: -40%;
+  margin-top: 19.5;
+
+}
+
+.contra {
+
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+  margin-left: 60%;
+  margin-top: -19.5%;
+
+}
+
+.fecha {
+
+  position: relative;
+  height: 45px;
+  width: 10%;
+  margin-bottom: 17px;
+  margin-left:35%;
+  margin-top: -14%;
+
+}
+
+
+
+.fecha1 {
+
+  position: relative;
+  height: 45px;
+  width: 10%;
+  margin-bottom: 17px;
+  margin-left:46%;
+  margin-top: -3.2%;
+
+}
+
+.fecha2 {
+
+  position: relative;
+  height: 45px;
+  width: 10%;
+  margin-bottom: 17px;
+  margin-left:57%;
+  margin-top: -3.3%;
+
+}
+  /* Style the inputs */
+
+.input {
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+
+  }
+  
+  /* Hide the placeholder texts (a) */
+  
+  ::placeholder {
+
+    color: transparent;
+
+  }
+  /* Styling text labels */
+
+.label {
+
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: rgb(4, 4, 4);
+    color: #ede9e9;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+
+  }
+
+  .submitBtn a {
+
+    color: black;
+    text-decoration: none;
+
+  }
+
+  .submitBtn a:hover {
+
+    color: white;
+
+  }
+
+  .submitBtn {
+
+    display: block;
+    margin-left: 45.5%;
+    padding: 15px 30px;
+    border: none;
+    background: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    width: 11%;
+
+  }
+  
+  .submitBtn:hover {
+
+    background: orange; 
+    transform: translateY(-2px);
+
+  }
+
+  .input:focus + .label {
+
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+
+  }
+
+  .input:focus {
+
+    border: 2px solid orange;
+
+  }
+
+  .input:not(:placeholder-shown)+ .label {
+
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+
+  }

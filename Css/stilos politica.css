@@ -1,0 +1,219 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+body {
+
+    background: black;
+    
+}
+
+.contenedor {
+
+    width: 100%;
+    background: black;
+    
+}
+
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    
+    width: 10%;
+    
+}
+
+
+.nombre {
+
+    color: white;
+    font-size: 28px;
+
+}
+
+.nombre span {
+
+    color: orange;
+
+}
+
+nav ul li {
+
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+
+    color: orange;
+    text-decoration: underline 5px;
+
+}
+
+#btn {
+
+    margin-right: -18%;
+    width: 35%;
+}
+
+#btn button {
+
+    margin-left: 38px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    background: black;
+
+}
+
+#btn button a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4;
+
+}
+
+
+#btn button:hover {
+
+    transform: scale(1.1);
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: orange;
+
+
+}
+
+.frase {
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 400%;
+    margin-top: 8%;
+    color: white;
+
+}
+
+.comilla1 {
+
+    display: flex;
+    justify-content: left;
+    width: 2%;
+    right: 5%;
+    color: purple;
+    margin-top: -12%;
+    margin-right: 1.5%;
+    font-size: 100pt;
+
+}
+
+.comilla2 {
+
+    display: flex;
+    justify-content: left;
+    width: 3%;
+    right: 40%;
+    margin-left: 34%;
+    margin-top: -11%;
+    font-size: 100pt;
+    color: purple;
+}
+
+.contenedor {
+
+    display: flex;
+    
+}
+    
+#mision {
+
+    justify-content: end;
+    display: flex;
+    justify-content: left;
+    font-family: arial;
+    font-size: 600%;
+    color: orange;
+    margin-left: 20%;
+    margin-top: 5%;
+
+}
+
+#vision {
+
+    justify-content: end;
+    margin-left: 25%;
+    display: flex;
+    justify-content: right;
+    font-family: arial;
+    font-size: 600%;
+    color: orange;
+    margin-top: 5%;
+    
+}
+
+.contenedor2 {
+
+    display: flex;
+    
+}
+    
+#mision2 {
+
+    justify-content: end;
+    display: flex;
+    justify-content: left;
+    font-family: arial;
+    font-size: 14pt;
+    color: white;
+    margin-left: 20%;
+    margin-top: 3%;
+
+}
+
+#vision2 {
+
+    justify-content: end;
+    margin-left: 28%;
+    display: flex;
+    justify-content: right;
+    font-family: arial;
+    font-size: 14pt;
+    color: white;
+    margin-top: 3%;
+    
+}
